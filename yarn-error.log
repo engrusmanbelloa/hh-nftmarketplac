@@ -1,0 +1,36 @@
+Arguments: 
+  /home/nait/.nvm/versions/node/v16.15.1/bin/node /home/nait/.yarn/bin/yarn.js add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv~
+
+PATH: 
+  /home/nait/.yarn/bin:/home/nait/.config/yarn/global/node_modules/.bin:/home/nait/.yarn/bin:/home/nait/.config/yarn/global/node_modules/.bin:/home/nait/.yarn/bin:/home/nait/.config/yarn/global/node_modules/.bin:/home/nait/.nvm/versions/node/v16.15.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/dotenv~: Not found
+      at Request.params.callback [as _callback] (/home/nait/.yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/nait/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/home/nait/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/home/nait/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
